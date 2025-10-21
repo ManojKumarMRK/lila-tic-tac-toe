@@ -1,0 +1,21 @@
+{
+  "name": "lila-tic-tac-toe-server",
+  "version": "1.0.0",
+  "description": "Nakama server runtime for multiplayer Tic-Tac-Toe game",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc --watch",
+    "start": "docker-compose up",
+    "stop": "docker-compose down",
+    "clean": "rm -rf build && rm -rf node_modules",
+    "reset": "docker-compose down -v && docker-compose up"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.19.5"
+  }
+}

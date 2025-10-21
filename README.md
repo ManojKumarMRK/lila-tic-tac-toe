@@ -45,7 +45,7 @@ lila-tic-tac-toe/
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js 20+
 - Docker & Docker Compose
 - Expo CLI
 - iOS Simulator or Android Emulator
